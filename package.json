@@ -1,0 +1,19 @@
+{
+  "name": "learn-pinia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sereinof/pinia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sereinof/pinia/issues"
+  },
+  "homepage": "https://github.com/sereinof/pinia#readme"
+}
