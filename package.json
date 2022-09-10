@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sereinof/pinia/issues"
   },
-  "homepage": "https://github.com/sereinof/pinia#readme"
+  "homepage": "https://github.com/sereinof/pinia#readme",
+  "dependencies": {
+    "nrm": "^1.2.5"
+  }
 }
