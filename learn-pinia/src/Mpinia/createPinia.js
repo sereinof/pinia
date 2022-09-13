@@ -3,7 +3,8 @@ import { SymbolPinia } from "./rootStore";
 
 export function createPinia(){
      const scope = effectScope(true);
-     const state  = scope.run(()=>ref({}))
+     const state  = scope.run(()=>ref({}))//这个state居然是存储state的容器，不过不是见么简单
+     //state是响应式数据，而store的话还包含action，以及getter计算属性
       const pinia = markRaw({
         install(app){
             //pinia 希望能被共享出去
